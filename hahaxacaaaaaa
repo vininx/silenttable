@@ -1,0 +1,58 @@
+getgenv().wzmh = {
+   ['Aimbot'] = {
+       ['Prediction'] = {
+           ['Amount'] = 0.1,
+           ['Auto Prediction'] = true
+       },
+       ['Camera'] = {
+           ['Smoothing'] = 1
+       },
+       ['Target Part'] = "UpperTorso",
+       ['Jump Offset'] = -1.5,
+       ['Auto Air'] = {
+           ['Enabled'] = true,
+           ['Delay'] = {
+               ['Enabled'] = true,
+               ['Delay Amount'] = 1.5
+           }
+       },
+       ['Notify'] = true
+   },
+   ['Macro'] = {
+       ['Enabled'] = true
+   },
+   ['Visuals'] = {
+       ['Dot'] = {
+           ['Enabled'] = true,
+           ['Size'] = 1,
+           ['Color'] = Color3.fromRGB(199, 110, 255)
+       },
+       ['FOV'] = {
+           ['Enabled'] = true,
+           ['Radius'] = 120,
+           ['Color'] = Color3.fromRGB(199, 110, 255),
+           ['Filled'] = true,
+           ['Transparency'] = 0.4
+       },
+       ['Highlight'] = {
+           ['Enabled'] = true,
+           ['FillColor'] = Color3.fromRGB(199, 110, 255),
+           ['OutlineColor'] = Color3.fromRGB(0, 0, 0)
+       }
+   },
+   ['World'] = {
+       ['Enabled'] = true,
+       ['Textures'] = {
+           ['Enabled'] = true,
+           ['Color'] = Color3.fromRGB(255, 255, 255),
+           ['Material'] = Enum.Material.SmoothPlastic,
+           ['Ignore Players'] = true
+       },
+       ['Fog'] = {
+           ['Enabled'] = false,
+           ['Color'] = Color3.fromRGB(255, 255, 255),
+           ['Strength'] = 1000
+       },
+       ['No Shadows'] = true
+   }
+}
