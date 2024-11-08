@@ -1,62 +1,22 @@
-script_key = "cornyhi" 
-getgenv().xaxaxa_script_key = script_key
-getgenv().wzmh = {
+
+script_key="skibidihaha";
+getgenv().Silent = {
    ['Aimbot'] = {
        ['Prediction'] = {
            ['Amount'] = 0.1,
-           ['Auto Prediction'] = true
-       },
-       ['Camera'] = {
-           ['Smoothing'] = 1
+           ['Auto Prediction'] = false
        },
        ['Target Part'] = "UpperTorso",
        ['Jump Offset'] = -1.5,
-       ['Auto Air'] = {
-           ['Enabled'] = true,
-           ['Delay'] = {
-               ['Enabled'] = true,
-               ['Delay Amount'] = 1.5
-           }
-       },
-       ['Notify'] = true
+       ['Auto Air'] = true,
+   },
+   ['Camera'] = {
+       ['Smoothing'] = 0.50
    },
    ['Macro'] = {
        ['Enabled'] = true
-   },
-   ['Visuals'] = {
-       ['Dot'] = {
-           ['Enabled'] = true,
-           ['Size'] = 1,
-           ['Color'] = Color3.fromRGB(199, 110, 255)
-       },
-       ['FOV'] = {
-           ['Enabled'] = true,
-           ['Radius'] = 120,
-           ['Color'] = Color3.fromRGB(199, 110, 255),
-           ['Filled'] = true,
-           ['Transparency'] = 0.4
-       },
-       ['Highlight'] = {
-           ['Enabled'] = true,
-           ['FillColor'] = Color3.fromRGB(199, 110, 255),
-           ['OutlineColor'] = Color3.fromRGB(0, 0, 0)
-       }
-   },
-   ['World'] = {
-       ['Enabled'] = true,
-       ['Textures'] = {
-           ['Enabled'] = true,
-           ['Color'] = Color3.fromRGB(255, 255, 255),
-           ['Material'] = Enum.Material.SmoothPlastic,
-           ['Ignore Players'] = true
-       },
-       ['Fog'] = {
-           ['Enabled'] = false,
-           ['Color'] = Color3.fromRGB(255, 255, 255),
-           ['Strength'] = 1000
-       },
-       ['No Shadows'] = true
    }
 }
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c3991adeb9d82fed44d8068268103a1a.lua"))()
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/38d99c2a01e47ff9d2221caee50ca628.lua"))()
