@@ -1,3 +1,5 @@
+script_key = "cornyhi" 
+getgenv().xaxaxa_script_key = script_key
 getgenv().wzmh = {
    ['Aimbot'] = {
        ['Prediction'] = {
@@ -56,3 +58,5 @@ getgenv().wzmh = {
        ['No Shadows'] = true
    }
 }
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c3991adeb9d82fed44d8068268103a1a.lua"))()
