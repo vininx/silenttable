@@ -19,4 +19,5 @@ getgenv().Silent = {
 }
 
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/38d99c2a01e47ff9d2221caee50ca628.lua"))()
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c5e838f9288982131f6a859576b3e471.lua"))()
